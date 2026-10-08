@@ -1,0 +1,15 @@
+<svg
+  version="2"
+  width="610"
+  height="610"
+  viewBox="0 0 610 610"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect x="5" y="5" width="200" height="200" stroke="black" stroke-width="10" fill="none" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="610" height="610" fill="url(#grid)" />
+  <line x1="155" y1="5" x2="455" y2="605" stroke-width="10" stroke="purple" />
+  <line x1="605" y1="155" x2="5" y2="455" stroke-width="10" stroke="green" />
+</svg>
